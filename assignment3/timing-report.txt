@@ -1,0 +1,8 @@
+Reference (pure Python) filter time color2gray: 1.9s (calls=3)
+Timing: numpy color2gray: 0.00218s (speedup=871.10x)
+Timing: numba color2gray: 0.222s (speedup=8.53x)
+Timing: cython color2gray: 0.0388s (speedup=48.90x)
+Reference (pure Python) filter time color2sepia: 5.82s (calls=3)
+Timing: numpy color2sepia: 0.0261s (speedup=222.81x)
+Timing: numba color2sepia: 0.126s (speedup=46.28x)
+Timing: cython color2sepia: 0.189s (speedup=30.80x)

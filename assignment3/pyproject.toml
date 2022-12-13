@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools",
+    # 4110 only:
+    "cython",
+    "numpy==1.21.*",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "0.1.0"
+requires-python = ">=3.7"
+license = {text = "MIT License"}
+name = "instapy"
+description = "making it pip installable"
+readme = "README.md"
+dependencies = [
+"numba",
+"pillow",
+"numpy",
+'importlib-metadata; python_version<"3.8"'
+]
+
+
+[project.scripts]
+instapy = "instapy.cli:main"
+#my-client = "my_package.my_module:main_cli"

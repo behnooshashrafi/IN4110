@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: instapy
+Version: 0.1.0
+Summary: making it pip installable
+License: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# instapy package
+It is a package that enables us to apply filters on images. Two filteres were implemented using different methods. 
+Filters: color2gray, color2sepia
+Implementation: python, numpy, numba, cython
+### color2gray:
+Applies a gray scale filter to the image. We use 0.21, 0.72, and 0.07 as weight for red, green and blue channels in each pixel respectively.
+
+### color2sepia:
+Applies a sepia filter to the image. Using the sepia matrix
